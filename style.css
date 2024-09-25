@@ -355,10 +355,19 @@ input[type="submit"]:hover,
     font-size: 16px;
 }
 
+@media screen and (max-width: 1440px) {
+    .site-header {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .site-header {
         position: relative;
         z-index: unset;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -405,6 +414,8 @@ input[type="submit"]:hover,
         display: flex;
         align-items: center;
         gap: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         white-space: nowrap;
     }
 
@@ -428,7 +439,7 @@ input[type="submit"]:hover,
 
     .primary-menu li ul {
         position: absolute;
-        top: 38px;
+        top: 36px;
         left: 0;
         z-index: 3;
         display: none;
@@ -438,9 +449,15 @@ input[type="submit"]:hover,
         width: 100%;
         min-width: 250px;
         height: auto;
-        background-color: #8d61f1;
+        background-color: #f6b434;
         border-radius: 0 10px 10px 10px;
         list-style: none;
+    }
+
+    .primary-menu li ul a {
+        display: block;
+        padding: 5px;
+        color: #000;
     }
 }
 
@@ -505,7 +522,7 @@ input[type="submit"]:hover,
         z-index: 999;
         display: flex;
         flex-direction: column;
-        padding-top: 35px;
+        padding-top: 50px;
         width: 320px;
         font-size: 1em;
         color: #e2e2e2;
@@ -844,23 +861,23 @@ blockquote:not(:last-child) {
 
 /* ### Lists */
 
-.post ol {
+ol {
     margin: 20px 0;
     padding: 0;
     list-style: none;
 }
 
-.post ol li {
+ol li {
     position: relative;
     padding-left: 40px;
     margin-bottom: 5px;
 }
 
-.post ol li:last-child {
+ol li:last-child {
     margin-bottom: 0;
 }
 
-.post ol>li {
+ol>li {
     counter-increment: listCounter;
 }
 
@@ -868,7 +885,7 @@ ol[start] {
     counter-reset: listCounter calc(var(--start) - 1);
 }
 
-.post ol>li:before {
+ol>li:before {
     content: counter(listCounter);
 }
 
@@ -1062,6 +1079,11 @@ ol[start] {
     white-space: nowrap;
 }
 
+.sidebar-menu a:hover .text {
+    background: linear-gradient(91.25deg, #DF5017 -4.25%, #F9CB74 108.11%);
+    border-color: transparent;
+}
+
 .sidebar-menu .text span {
     font-size: 13px;
     line-height: 1.3;
@@ -1145,7 +1167,12 @@ ol[start] {
     width: 403px;
     height: 280px;
     border-radius: 20px;
+    transition: opacity .3s ease-in-out;
     overflow: hidden;
+}
+
+.slider-wrap .image-wrap:hover {
+    opacity: .7;
 }
 
 .slider-wrap .image-wrap img {
