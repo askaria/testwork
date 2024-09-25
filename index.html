@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Тестовый сайт</title>
+
+    <link rel="stylesheet" id="main" href="style.css" media="all">
+    <link rel="stylesheet" id="main" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <link rel="stylesheet" id="main" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+</head>
+
+<body>
+
+    <div class="site-container">
+
+        <header class="site-header">
+            <nav class="header-menu mobile-menu" aria-label="Главное меню">
+                <input id="mobile-menu-toggle" type="checkbox">
+                <label class="mobile-menu-button" for="mobile-menu-toggle">
+                    <span></span>
+                </label>
+                <div class="primary-menu">
+                    <span class="cross"></span>
+                    <ul class="menu">
+                        <li class="menu-item has-children">
+                            <a href="">Направления</a>
+                            <ul class="sub-menu">
+                                <li><a href="">Пункт 1</a></li>
+                                <li><a href="">Пункт 2</a></li>
+                                <li><a href="">Пункт 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">Портфолио</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="right">
+                <a href="" class="login">Войти</a>
+                <a href="" class="button">Регистрация</a>
+            </div>
+        </header>
+
+        <main class="site-main">
+            <section class="top-info">
+                <h1>Почему мы не используем Coreldraw</h1>
+                <picture>
+                    <source srcset="assets/images/header.webp" type="image/webp">
+                    <img class="skip-lazy" src="assets/images/header.png" alt="" width="1070" height="648">
+                </picture>
+            </section>
+
+            <section class="content-sidebar-wrap">
+                <article class="post">
+                    <blockquote>
+                        В мире дизайна мы сделали выбор в пользу Adobe, оставив за бортом формат CorelDraw.
+                        Давайте разберем, почему именно Adobe стал нашим надежным союзником в творчестве.
+                    </blockquote>
+
+                    <ol class="info-list">
+                        <li>
+                            <p>
+                                Adobe - это компания, представляющая широкий спектр продуктов, среди которых вы,
+                                вероятно, знакомы с основными:
+                            </p>
+                            <div class="gallery">
+                                <div class="gallery-container col-3 with-bg">
+                                    <div class="gallery-item">
+                                        <img src="assets/images/ill.png" srcset="assets/images/ill@2x.png 2x"
+                                            alt="Illustrator">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="assets/images/pdf.png" srcset="assets/images/pdf@2x.png 2x"
+                                            alt="Adobe PDF">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="assets/images/prem.png" srcset="assets/images/prem@2x.png 2x"
+                                            alt="Premiere">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="assets/images/ph.png" srcset="assets/images/ph@2x.png 2x"
+                                            alt="Photoshop">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="assets/images/in.png" srcset="assets/images/in@2x.png 2x"
+                                            alt="InDesign">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="assets/images/after.png" srcset="assets/images/after@2x.png 2x"
+                                            alt="After Effects">
+                                    </div>
+                                </div>
+                                <p class="gallery-caption">а также более 90 других продуктов</p>
+                            </div>
+                        </li>
+                    </ol>
+
+                    <p>
+                        Более тысячи специалистов по всему миру активно участвуют в разработке и обеспечивают высокое
+                        качество продуктов и их разнообразные возможности.
+                    </p>
+
+                    <p>
+                        В то время как CorelDraw ограничивается только CorelDraw.
+                    </p>
+
+                    <ol class="info-list" start="2">
+                        <li class="centered">
+                            Поддержка CorelDraw практически отсутствует в Европе и США, поскольку более 98% типографий в
+                            этих регионах не используют данный формат.
+                        </li>
+                        <li>
+                            <p>
+                                Главный недостаток CorelDraw заключается в преобразовании документа во внутренний формат
+                                bitmap. Это особенно заметно при обработке растровых изображений, где могут возникнуть
+                                различные артефакты, такие как неожиданные грани, изменение цветов или полная инверсия
+                                изображения.
+                            </p>
+                            <div class="gallery">
+                                <div class="gallery-container col-2">
+                                    <div class="gallery-item">
+                                        <img src="assets/images/corel-1.png" srcset="assets/images/corel-1@2x.png 2x"
+                                            alt="Corel 1">
+                                    </div>
+                                    <div class="gallery-item">
+                                        <img src="assets/images/corel-2.png" srcset="assets/images/corel-2@2x.png 2x"
+                                            alt="Corel 2">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ol>
+
+                    <p>
+                        В отличие от этого, Illustrator лишен подобных неожиданностей и обладает полной совместимостью с
+                        форматами PDF и EPS, необходимыми для полиграфии. Важно отметить, что, несмотря на возможность
+                        сохранения файлов в формате PDF, CorelDraw плохо распознает PDF файлы, что может привести к
+                        потере некоторых элементов макета. Поэтому при подготовке макета для офсетной полиграфии
+                        Illustrator остается оптимальным выбором.
+                    </p>
+
+                    <div class="scheme-wrap">
+                        <img src="assets/images/scheme.png" srcset="assets/images/scheme@2x.png 2x" alt="Scheme">
+                    </div>
+
+                    <ol class="info-list" start="4">
+                        <li>
+                            Современная лицензия CorelDraw может оцениваться в 600 долларов в год на одного
+                            пользователя, что может быть финансово недоступным для многих типографий. Из-за этого они
+                            вынуждены использовать устаревшие версии программы, что может привести к искаженному
+                            отображению контента.
+                        </li>
+                        <li>
+                            Обучение наших дизайнеров работе в CorelDraw требовало бы значительного времени. Учитывая,
+                            что это формат с тенденцией к упадку, вкладывание человеческого капитала в него становится
+                            неоправданно.
+                        </li>
+                    </ol>
+
+                    <p>
+                        ​​Используя среду Adobe, мы вкладываемся в инновации, качество и признание в мировом масштабе.
+                        Присоединяйтесь к нам в этом увлекательном путешествии в мир творчества, где каждый проект
+                        становится настоящим произведением искусства.
+                    </p>
+                </article>
+
+                <aside class="sidebar" aria-label="Основной сайдбар">
+                    <div class="sidebar-menu widget-sticky">
+                        <a href="">
+                            <img src="assets/images/sidebar-1.png" srcset="assets/images/sidebar-1@2x.png 2x"
+                                alt="Sidebar menu 1">
+                            <div class="text">
+                                Почему мы не используем
+                                <span>CorelDraw</span>
+                                <div class="round">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="6">
+                                        <use href="#icon-arrow"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <img src="assets/images/sidebar-2.png" srcset="assets/images/sidebar-2@2x.png 2x"
+                                alt="Sidebar menu 1">
+                            <div class="text">
+                                в команде Creat работают
+                                <span>только лучшие</span>
+                                <div class="round">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="6">
+                                        <use href="#icon-arrow"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <img src="assets/images/sidebar-3.png" srcset="assets/images/sidebar-3@2x.png 2x"
+                                alt="Sidebar menu 3">
+                            <div class="text">
+                                откуда мы черпаем идеи
+                                <span>для дизайна</span>
+                                <div class="round">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="6">
+                                        <use href="#icon-arrow"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <img src="assets/images/sidebar-2.png" srcset="assets/images/sidebar-2@2x.png 2x"
+                                alt="Sidebar menu 4">
+                            <div class="text">
+                                в команде Creat работают
+                                <span>только лучшие</span>
+                                <div class="round">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="6">
+                                        <use href="#icon-arrow"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </aside>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <section class="slider-1">
+                <div class="slider-wrap">
+                    <div class="splide">
+                        <div class="splide__track">
+                            <div class="splide__list">
+                                <div class="splide__slide">
+                                    <a href="assets/images/slider-1.jpg" class="image-wrap glightbox">
+                                        <img src="assets/images/slider-1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="splide__slide">
+                                    <a href="assets/images/slider-2.jpg" class="image-wrap glightbox">
+                                        <img src="assets/images/slider-2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="splide__slide">
+                                    <a href="assets/images/slider-3.jpg" class="image-wrap glightbox">
+                                        <img src="assets/images/slider-3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="splide__slide">
+                                    <a href="assets/images/slider-4.jpg" class="image-wrap glightbox">
+                                        <img src="assets/images/slider-4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="splide__slide">
+                                    <a href="assets/images/slider-5.jpg" class="image-wrap glightbox">
+                                        <img src="assets/images/slider-5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="splide__slide">
+                                    <a href="assets/images/slider-6.jpg" class="image-wrap glightbox">
+                                        <img src="assets/images/slider-6.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="splide__slide">
+                                    <a href="assets/images/slider-7.jpg" class="image-wrap glightbox">
+                                        <img src="assets/images/slider-7.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="splide__slide">
+                                    <a href="assets/images/slider-8.jpg" class="image-wrap glightbox">
+                                        <img src="assets/images/slider-8.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="splide__slide">
+                                    <a href="assets/images/slider-9.jpg" class="image-wrap glightbox">
+                                        <img src="assets/images/slider-9.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="splide__slide">
+                                    <a href="assets/images/slider-10.jpg" class="image-wrap glightbox">
+                                        <img src="assets/images/slider-10.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="slider-2">
+                <div class="slider-wrap">
+                    <div class="splide" data-splide='{"direction": "rtl"}'>
+                        <div class="splide__track">
+                            <div class="splide__list">
+                                <div class="splide__slide">
+                                    <a href="assets/images/slider-6.jpg" class="image-wrap glightbox">
+                                        <img src="assets/images/slider-6.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="splide__slide">
+                                    <a href="assets/images/slider-7.jpg" class="image-wrap glightbox">
+                                        <img src="assets/images/slider-7.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="splide__slide">
+                                    <a href="assets/images/slider-8.jpg" class="image-wrap glightbox">
+                                        <img src="assets/images/slider-8.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="splide__slide">
+                                    <a href="assets/images/slider-9.jpg" class="image-wrap glightbox">
+                                        <img src="assets/images/slider-9.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="splide__slide">
+                                    <a href="assets/images/slider-10.jpg" class="image-wrap glightbox">
+                                        <img src="assets/images/slider-10.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="splide__slide">
+                                    <a href="assets/images/slider-1.jpg" class="image-wrap glightbox">
+                                        <img src="assets/images/slider-1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="splide__slide">
+                                    <a href="assets/images/slider-2.jpg" class="image-wrap glightbox">
+                                        <img src="assets/images/slider-2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="splide__slide">
+                                    <a href="assets/images/slider-3.jpg" class="image-wrap glightbox">
+                                        <img src="assets/images/slider-3.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="splide__slide">
+                                    <a href="assets/images/slider-4.jpg" class="image-wrap glightbox">
+                                        <img src="assets/images/slider-4.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="splide__slide">
+                                    <a href="assets/images/slider-5.jpg" class="image-wrap glightbox">
+                                        <img src="assets/images/slider-5.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+    </div>
+
+    <div class="menu-overlay"><span></span></div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <svg style="display: none;">
+        <symbol id="icon-arrow" viewBox="0 0 17 6">
+            <path fill="#fff"
+                d="M1.436 2.479a.478.478 0 0 0 0 .957v-.957Zm15.305.478L11.958.196v5.523l4.783-2.762Zm-15.305.479h11v-.957h-11v.957Z" />
+        </symbol>
+    </svg>
+
+</body>
+
+</html>
